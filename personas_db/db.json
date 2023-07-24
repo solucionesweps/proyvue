@@ -1,0 +1,68 @@
+{
+  "states": [
+    {
+      "id": 1,
+      "name": "Cochabamba"
+    },
+    {
+      "id": 2,
+      "name": "La Paz"
+    },
+    {
+      "id": 3,
+      "name": "Tarija"
+    },
+    {
+      "id": 4,
+      "name": "Chuquisaca"
+    },
+    {
+      "id": 5,
+      "name": "Beni"
+    },
+    {
+      "id": 6,
+      "name": "Pando"
+    },
+    {
+      "id": 7,
+      "name": "Santa Cruz"
+    },
+    {
+      "id": 8,
+      "name": "Oruro"
+    },
+    {
+      "id": 9,
+      "name": "Potosi"
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "cercado",
+      "statesId": 1
+    },
+    {
+      "id": 2,
+      "name": "El Alto",
+      "statesId": 2
+    },
+    {
+      "id": 3,
+      "name": "La Paz Ciudad",
+      "statesId": 2
+    }
+  ],
+  "customers": [
+    {
+      "name": "Roberto Quiroga",
+      "genero":"Masculino",
+      "phone": 79898789,
+      "email": "walter@gmail.com",
+      "statesId": 2,
+      "citiesId": 3,
+      "id": 1
+    }
+  ]
+}
