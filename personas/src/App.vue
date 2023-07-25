@@ -7,6 +7,7 @@
         <ul class="right hide-on-med-and-down">
          
           <li><router-link to="/customer">Personas</router-link></li>
+          <li><router-link to="/cities">Ciudades</router-link></li>
          
          
           <li v-if="$store.getters.isLogin"><a @click="logout()">Salir</a></li>
@@ -18,6 +19,7 @@
     <ul class="sidenav" id="mobile-demo">
       <li><router-link to="/">Inicio</router-link></li>
       <li><router-link to="/customer">Personas</router-link></li>
+      <li><router-link to="/cities">Ciudades</router-link></li>
       
   
       <li v-if="$store.getters.isLogin"><a @click="logout()">Salir</a></li>
@@ -52,6 +54,7 @@ export default {
     }
   },
   created() {
+    document.title = "Sistema de Registro";
     document.addEventListener('DOMContentLoaded', function () {
       var elems = document.querySelectorAll('.sidenav');
       var instances = M.Sidenav.init(elems, {});

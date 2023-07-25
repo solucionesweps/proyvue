@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import store from '@/store/index'
 
+
+
 const routes = [
   {
     path: '/',
@@ -33,6 +35,21 @@ const routes = [
     path: '/customer/:id',
     name: 'customeredit',
     component: () => import(/* webpackChunkName: "customeredit" */ '../views/CustomerEditView.vue')
+  },
+  {
+    path: '/cities',
+    name: 'citieslist',
+    component: () => import(/* webpackChunkName: "citieslist" */ '../views/CitiesListView.vue')
+  },
+  {
+    path: '/cities/new',
+    name: 'newcity',
+    component: () => import(/* webpackChunkName: "citiesformview" */ '../views/CitiesFormView.vue')
+  },
+  {
+    path: '/cities/:id/edit',
+    name: 'editcity',
+    component: () => import(/* webpackChunkName: "citiesformview" */ '../views/CitiesFormView.vue')
   }
  
 ]

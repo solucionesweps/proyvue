@@ -40,7 +40,7 @@
   "cities": [
     {
       "id": 1,
-      "name": "cercado",
+      "name": "Cercado",
       "statesId": 1
     },
     {
@@ -52,17 +52,64 @@
       "id": 3,
       "name": "La Paz Ciudad",
       "statesId": 2
+    },
+    {
+      "name": "Yacuiba",
+      "statesId": 7,
+      "id": 4
+    },
+    {
+      "name": "Caranavi",
+      "statesId": 2,
+      "id": 5
+    },
+    {
+      "name": "Cercado",
+      "statesId": 2,
+      "id": 6
+    },
+    {
+      "name": "Viacha",
+      "statesId": 2,
+      "id": 10
+    },
+    {
+      "name": "Acahcachi",
+      "statesId": 2,
+      "id": 15
+    },
+    {
+      "name": "Luribay",
+      "statesId": 2,
+      "id": 17
     }
   ],
   "customers": [
     {
       "name": "Roberto Quiroga",
-      "genero":"Masculino",
+      "genero": "Masculino",
       "phone": 79898789,
       "email": "walter@gmail.com",
       "statesId": 2,
       "citiesId": 3,
       "id": 1
+    },
+    {
+      "name": "juan Carlos Ticona",
+      "genero": "Masculino",
+      "phone": 76290378,
+      "email": "juancarlos@gmail.com",
+      "statesId": 3,
+      "cityId": 0,
+      "id": 2
+    },
+    {
+      "name": "Maria Morales Mamani",
+      "phone": 76290379,
+      "statesId": 5,
+      "genero": "Femenino",
+      "email": "marimorales@gmail.com",
+      "id": 3
     }
   ]
 }
